@@ -1,0 +1,33 @@
+# Assembly Project .gitignore
+
+# Object Files & Executables
+*.o
+*.exe
+*.out
+*.elf
+*.so  # Shared Objects (Linux)
+*.dll # Dynamic Link Libraries (Windows)
+
+# Build Directories
+build/
+dist/
+obj/
+bin/
+
+# Temporary Files
+*~
+\#*\#
+.*.swp
+*.bak
+*.tmp
+
+# Editor-Specific Files
+.vscode/  # VS Code settings
+.idea/   # IntelliJ IDEA settings
+*.suo    # Visual Studio solution user options (Windows)
+*.user   # Visual Studio user project files (Windows)
+*.vcxproj # Visual Studio project files (Windows)
+*.sln    # Visual Studio solution files (Windows)
+
+# NASM Specific
+*.asm.s  # NASM generated assembly output
